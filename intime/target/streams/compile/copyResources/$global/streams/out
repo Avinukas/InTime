@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Michel\Documents\develop\InTime\intime\conf\application.conf,C:\Users\Michel\Documents\develop\InTime\intime\target\scala-2.12\classes\application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Michel\Documents\develop\InTime\intime\conf\logback.xml,C:\Users\Michel\Documents\develop\InTime\intime\target\scala-2.12\classes\logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Michel\Documents\develop\InTime\intime\conf\routes,C:\Users\Michel\Documents\develop\InTime\intime\target\scala-2.12\classes\routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/glideikyte/Documents/development/InTime/intime/conf/application.conf,/Users/glideikyte/Documents/development/InTime/intime/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/glideikyte/Documents/development/InTime/intime/conf/logback.xml,/Users/glideikyte/Documents/development/InTime/intime/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/glideikyte/Documents/development/InTime/intime/conf/routes,/Users/glideikyte/Documents/development/InTime/intime/target/scala-2.12/classes/routes)[0m

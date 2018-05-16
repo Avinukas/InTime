@@ -30,11 +30,11 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*1.4*/("""
-
+Seq[Any](format.raw/*2.1*/("""
 """),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
   """),format.raw/*4.3*/("""<h1>Welcome to Play!</h1>
-""")))}),format.raw/*5.2*/("""
+  <p>ich teste eclipse</p>
+""")))}),format.raw/*6.2*/("""
 """))
       }
     }
@@ -51,11 +51,11 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue May 15 21:52:45 CEST 2018
-                  SOURCE: C:/Users/Michel/Documents/develop/InTime/intime/app/views/index.scala.html
-                  HASH: e7b67f9143e77fd41846670f700f7278d5705eda
-                  MATRIX: 941->1|1037->3|1067->8|1098->31|1137->33|1167->37|1224->65
-                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|37->5
+                  DATE: Wed May 16 15:00:01 CEST 2018
+                  SOURCE: /Users/glideikyte/Documents/development/InTime/intime/app/views/index.scala.html
+                  HASH: 3f4eded3fe6a9c27bbe0c2fd3bec64359075aa2a
+                  MATRIX: 941->1|1037->4|1064->6|1095->29|1134->31|1163->34|1246->88
+                  LINES: 28->1|33->2|34->3|34->3|34->3|35->4|37->6
                   -- GENERATED --
               */
           

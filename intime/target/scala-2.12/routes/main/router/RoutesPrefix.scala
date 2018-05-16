@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Michel/Documents/develop/InTime/intime/conf/routes
-// @DATE:Tue May 15 21:52:45 CEST 2018
+// @SOURCE:/Users/glideikyte/Documents/development/InTime/intime/conf/routes
+// @DATE:Wed May 16 14:39:46 CEST 2018
 
 
 package router {
