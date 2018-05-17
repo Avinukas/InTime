@@ -4,7 +4,7 @@
 		module="intime-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180516145343"
+		publication="20180517072928"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
@@ -42,5 +42,6 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="sbt-plugin" rev="2.6.13" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="5.2.2" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="com.typesafe.sbt" name="sbt-less" rev="1.1.2" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 	</dependencies>
 </ivy-module>

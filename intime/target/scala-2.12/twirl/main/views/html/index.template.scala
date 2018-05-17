@@ -30,11 +30,41 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*2.1*/("""
-"""),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
-  """),format.raw/*4.3*/("""<h1>Welcome to Play!</h1>
-  <p>ich teste eclipse</p>
-""")))}),format.raw/*6.2*/("""
+Seq[Any](format.raw/*1.4*/(""" """),_display_(/*1.6*/main("In Time")/*1.21*/ {_display_(Seq[Any](format.raw/*1.23*/("""
+"""),format.raw/*2.1*/("""<section class="container">
+	<div class="one border">
+		<h2>Firma</h2>
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#firmaAnmelden">Anmelden</a></li>
+			<li><a data-toggle="tab" href="#firmaRegistrieren">Registrieren</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div id="firmaAnmelden" class="tab-pane fade in active">
+				<form>
+					<div class="input-group">
+						<input id="firmaId" type="text" class="form-control"
+							name="FirmaId" placeholder="Firma ID"> <input id="email"
+							type="text" class="form-control" name="email" placeholder="Email">
+						<input id="password" type="password" class="form-control"
+							name="password" placeholder="Password">
+						<button type="button" class="btn btn-default">anmelden</button>
+					</div>
+				</form>
+			</div>
+			<div id="firmaRegistrieren" class="tab-pane fade">
+				<h4>Registrierung:</h4>
+				<p>Some content in menu 1.</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="two border">
+		<h2>Mitarbeiter</h2>
+	</div>
+</section>
+
+""")))}),format.raw/*35.2*/("""
 """))
       }
     }
@@ -51,11 +81,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed May 16 15:00:01 CEST 2018
+                  DATE: Thu May 17 11:12:19 CEST 2018
                   SOURCE: /Users/glideikyte/Documents/development/InTime/intime/app/views/index.scala.html
-                  HASH: 3f4eded3fe6a9c27bbe0c2fd3bec64359075aa2a
-                  MATRIX: 941->1|1037->4|1064->6|1095->29|1134->31|1163->34|1246->88
-                  LINES: 28->1|33->2|34->3|34->3|34->3|35->4|37->6
+                  HASH: 02e903e1acf436deec726447ae207f3150f9bff3
+                  MATRIX: 941->1|1037->3|1064->5|1087->20|1126->22|1153->23|2207->1047
+                  LINES: 28->1|33->1|33->1|33->1|33->1|34->2|67->35
                   -- GENERATED --
               */
           

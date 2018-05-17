@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/glideikyte/Documents/development/InTime/intime/app/views/main.scala.html:14:37: value at is not a member of controllers.ReverseAssets[0m
+[0m[[0m[31merror[0m] [0m[0m        <script src="@routes.Assets.at("javascripts/jquery-3.3.1.js")" type="text/javascript"></script>[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

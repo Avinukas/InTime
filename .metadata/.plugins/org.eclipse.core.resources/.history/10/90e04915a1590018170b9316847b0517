@@ -1,0 +1,13 @@
+@()
+
+@main("In Time") {
+  <section class="container">
+    <div class="one border"> 
+    	<h2>Firma</h2>
+    </div>
+    <div class="two border"> 
+    	<h1>Mitarbeiter</h1>
+    </div>
+</section>
+
+}

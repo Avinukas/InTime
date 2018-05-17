@@ -1,0 +1,9 @@
+@()
+
+@main("Welcome to Play") {
+  <section class="container">
+    <div class="one"> Firma</div>
+    <div class="two"> Mitarbeiter</div>
+</section>
+
+}
