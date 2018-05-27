@@ -1,0 +1,21 @@
+2018-05-16 14:56:58,450  WARN [ModalContext] - ScalaProject - Project intime has platform default sourceLevel.
+2018-05-16 14:56:58,451  WARN [ModalContext] - ScalaProject - Project intime runs on platform default installation.
+2018-05-16 14:57:01,836  WARN [ModalContext] - ScalaProject - Project intime has platform default sourceLevel.
+2018-05-16 14:57:01,836  WARN [ModalContext] - ScalaProject - Project intime runs on platform default installation.
+2018-05-16 14:57:02,637  WARN [Worker-4] - ScalaProject - Project intime has platform default sourceLevel.
+2018-05-16 14:57:02,639  WARN [Worker-4] - ScalaProject - Project intime runs on platform default installation.
+2018-05-16 14:57:02,879  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for intime, setting default to 2.11.
+2018-05-16 14:57:02,880  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for intime, setting default to 2.11.
+2018-05-17 10:10:05,126 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - Exception in thread "org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor"
+2018-05-17 10:10:05,145 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - org.eclipse.core.runtime.AssertionFailedException: assertion failed:
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.jface.text.Position.<init>(Position.java:62)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.jface.text.source.AnnotationModel$RegionIterator.<init>(AnnotationModel.java:79)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getRegionAnnotationIterator(AnnotationModel.java:732)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:700)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.projection.AbstractStructuredFoldingStrategy.getExistingAnnotation(AbstractStructuredFoldingStrategy.java:480)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.projection.AbstractStructuredFoldingStrategy.reconcile(AbstractStructuredFoldingStrategy.java:208)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:330)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/glideikyte/Documents/development/InTime/intime/conf/routes
-// @DATE:Wed May 16 14:39:46 CEST 2018
+// @DATE:Wed May 23 20:36:17 CEST 2018
 
 package router
 
@@ -16,7 +16,7 @@ class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
   // @LINE:6
   HomeController_0: controllers.HomeController,
-  // @LINE:9
+  // @LINE:10
   Assets_1: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -25,7 +25,7 @@ class Routes(
    def this(errorHandler: play.api.http.HttpErrorHandler,
     // @LINE:6
     HomeController_0: controllers.HomeController,
-    // @LINE:9
+    // @LINE:10
     Assets_1: controllers.Assets
   ) = this(errorHandler, HomeController_0, Assets_1, "/")
 
@@ -40,6 +40,7 @@ class Routes(
 
   def documentation = List(
     ("""GET""", this.prefix, """controllers.HomeController.index"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """intime""", """controllers.HomeController.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -66,11 +67,29 @@ class Routes(
     )
   )
 
-  // @LINE:9
-  private[this] lazy val controllers_Assets_versioned1_route = Route("GET",
+  // @LINE:7
+  private[this] lazy val controllers_HomeController_index1_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("intime")))
+  )
+  private[this] lazy val controllers_HomeController_index1_invoker = createInvoker(
+    HomeController_0.index,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.HomeController",
+      "index",
+      Nil,
+      "GET",
+      this.prefix + """intime""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:10
+  private[this] lazy val controllers_Assets_versioned2_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned1_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned2_invoker = createInvoker(
     Assets_1.versioned(fakeValue[String], fakeValue[Asset]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -93,10 +112,16 @@ class Routes(
         controllers_HomeController_index0_invoker.call(HomeController_0.index)
       }
   
-    // @LINE:9
-    case controllers_Assets_versioned1_route(params@_) =>
+    // @LINE:7
+    case controllers_HomeController_index1_route(params@_) =>
+      call { 
+        controllers_HomeController_index1_invoker.call(HomeController_0.index)
+      }
+  
+    // @LINE:10
+    case controllers_Assets_versioned2_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned1_invoker.call(Assets_1.versioned(path, file))
+        controllers_Assets_versioned2_invoker.call(Assets_1.versioned(path, file))
       }
   }
 }

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/glideikyte/Documents/development/InTime/intime/conf/routes
-// @DATE:Wed May 16 14:39:46 CEST 2018
+// @DATE:Wed May 23 20:36:17 CEST 2018
 
 package controllers;
 

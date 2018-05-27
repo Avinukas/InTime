@@ -47,24 +47,36 @@ Seq[Any](format.raw/*1.4*/(""" """),_display_(/*1.6*/main("In Time")/*1.21*/ {_d
 							name="FirmaId" placeholder="Firma ID"> <input id="email"
 							type="text" class="form-control" name="email" placeholder="Email">
 						<input id="password" type="password" class="form-control"
-							name="password" placeholder="Password">
-						<button type="button" class="btn btn-default">anmelden</button>
+							name="password" placeholder="Passwort">
+						<button type="button" class="btn btn-default ">anmelden</button>
 					</div>
 				</form>
 			</div>
 			<div id="firmaRegistrieren" class="tab-pane fade">
-				<h4>Registrierung:</h4>
-				<p>Some content in menu 1.</p>
+				<form>
+					<div class="input-group">
+						<input id="firmaName" type="text" class="form-control"
+							name="FirmaName" placeholder="Name der Firma"> <input
+							id="emailr" type="text" class="form-control" name="emailr"
+							placeholder="Email"> <input id="passwordr"
+							type="password" class="form-control" name="passwordr"
+							placeholder="Passwort"> <input id="passwordrw"
+							type="password" class="form-control" name="passwordrw"
+							placeholder="Passwort wiederholen">
+						<button type="button" class="btn btn-default">registrieren</button>
+					</div>
+				</form>
 			</div>
 		</div>
-
 	</div>
 	<div class="two border">
 		<h2>Mitarbeiter</h2>
+
+
 	</div>
 </section>
 
-""")))}),format.raw/*35.2*/("""
+""")))}),format.raw/*47.2*/("""
 """))
       }
     }
@@ -81,11 +93,11 @@ Seq[Any](format.raw/*1.4*/(""" """),_display_(/*1.6*/main("In Time")/*1.21*/ {_d
 
               /*
                   -- GENERATED --
-                  DATE: Thu May 17 11:12:19 CEST 2018
+                  DATE: Sun May 27 19:49:48 CEST 2018
                   SOURCE: /Users/glideikyte/Documents/development/InTime/intime/app/views/index.scala.html
-                  HASH: 02e903e1acf436deec726447ae207f3150f9bff3
-                  MATRIX: 941->1|1037->3|1064->5|1087->20|1126->22|1153->23|2207->1047
-                  LINES: 28->1|33->1|33->1|33->1|33->1|34->2|67->35
+                  HASH: 5ae113a7cf756f345c6da3cf0da13c59b3ace9e2
+                  MATRIX: 941->1|1037->3|1064->5|1087->20|1126->22|1153->23|2744->1584
+                  LINES: 28->1|33->1|33->1|33->1|33->1|34->2|79->47
                   -- GENERATED --
               */
           
