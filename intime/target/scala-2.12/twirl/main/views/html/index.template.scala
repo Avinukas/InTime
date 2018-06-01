@@ -72,11 +72,46 @@ Seq[Any](format.raw/*1.4*/(""" """),_display_(/*1.6*/main("In Time")/*1.21*/ {_d
 	<div class="two border">
 		<h2>Mitarbeiter</h2>
 
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#mitarbeiterAnmeldung">Anmelden</a></li>
+			<li><a data-toggle="tab" href="#mitarbeiterRegistrieren">Registrieren</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div id="mitarbeiterAnmeldung" class="tab-pane fade in active">
+				<form>
+					<div class="input-group">
+						<input id="firmaIdm" type="text" class="form-control"
+							name="FirmaIdm" placeholder="Firma ID"> 
+						<input id="emailm"
+							type="text" class="form-control" name="email" placeholder="Email">
+						<input id="passwordm" type="password" class="form-control"
+							name="passwordm" placeholder="Passwort">
+						<button type="button" class="btn btn-default ">anmelden</button>
+					</div>
+				</form>
+			</div>
+			<div id="mitarbeiterRegistrieren" class="tab-pane fade">
+				<form>
+					<div class="input-group">
+						<input id="firmaIdmr" type="text" class="form-control"
+							name="FirmaIdmr" placeholder="ID der Firma"> <input
+							id="emailrm" type="text" class="form-control" name="emailrm"
+							placeholder="Email"> <input id="passwordrm"
+							type="password" class="form-control" name="passwordrm"
+							placeholder="Passwort"> <input id="passwordrwm"
+							type="password" class="form-control" name="passwordrwm"
+							placeholder="Passwort wiederholen">
+						<button type="button" class="btn btn-default">registrieren</button>
+					</div>
+				</form>
+			</div>
+		</div>
 
 	</div>
 </section>
 
-""")))}),format.raw/*47.2*/("""
+""")))}),format.raw/*82.2*/("""
 """))
       }
     }
@@ -93,11 +128,11 @@ Seq[Any](format.raw/*1.4*/(""" """),_display_(/*1.6*/main("In Time")/*1.21*/ {_d
 
               /*
                   -- GENERATED --
-                  DATE: Sun May 27 19:49:48 CEST 2018
+                  DATE: Sun May 27 20:44:00 CEST 2018
                   SOURCE: /Users/glideikyte/Documents/development/InTime/intime/app/views/index.scala.html
-                  HASH: 5ae113a7cf756f345c6da3cf0da13c59b3ace9e2
-                  MATRIX: 941->1|1037->3|1064->5|1087->20|1126->22|1153->23|2744->1584
-                  LINES: 28->1|33->1|33->1|33->1|33->1|34->2|79->47
+                  HASH: 0c1000027ecff8e507d0f937601752194aceb107
+                  MATRIX: 941->1|1037->3|1064->5|1087->20|1126->22|1153->23|4196->3036
+                  LINES: 28->1|33->1|33->1|33->1|33->1|34->2|114->82
                   -- GENERATED --
               */
           
