@@ -19,3 +19,7 @@
 2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:330)
 2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
 2018-05-17 10:10:05,150 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+2018-06-01 12:37:24,495  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for intime, setting default to 2.11.
+2018-06-01 12:37:24,499  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for intime, setting default to 2.11.
+2018-06-01 13:11:46,146  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for intime, setting default to 2.11.
+2018-06-01 13:11:46,147  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for intime, setting default to 2.11.
