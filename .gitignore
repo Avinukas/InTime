@@ -30,7 +30,7 @@ dist
 /RUNNING_PID
 /.settings
 .metadata
-intime/target
+/intime/target
 *target*
 *.jar
 *.war
